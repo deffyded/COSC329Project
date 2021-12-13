@@ -47,38 +47,40 @@ Note that this application assumes the Python code has no syntax errors, uses 4 
 
 "code smells report.txt" will look something like this
 
-		...
-		raw\canvas-gamification-master\course\migrations\0001_initial.py
-		God lines: 60, 135, 147, 158, 171, 185, 208
-		Classes:
-			11 Migration
-				Large class
-		...
-		
-		Methods:
-			33 __str__
-				No smells
-		
-			40 full_name
-				Free loader
-		
-			44 average_success_per_difficulty
-				Bad identifier
-		...
-		
-		Totals:
-		God lines: 17
-		Class smells:
-			Bad identifiers: 61
-			Long parameter lists: 1
-			Large classes: 9
-			Free loaders: 47
-			Cyclomatic Complexes: 3
-		Method smells:
-			Bad identifiers: 43
-			Long parameter lists: 4
-			Long methods: 20
-			Free loaders: 170
+```
+...
+raw\canvas-gamification-master\course\migrations\0001_initial.py
+God lines: 60, 135, 147, 158, 171, 185, 208
+Classes:
+	11 Migration
+		Large class
+...
+
+Methods:
+	33 __str__
+		No smells
+
+	40 full_name
+		Free loader
+
+	44 average_success_per_difficulty
+		Bad identifier
+...
+
+Totals:
+God lines: 17
+Class smells:
+	Bad identifiers: 61
+	Long parameter lists: 1
+	Large classes: 9
+	Free loaders: 47
+	Cyclomatic Complexes: 3
+Method smells:
+	Bad identifiers: 43
+	Long parameter lists: 4
+	Long methods: 20
+	Free loaders: 170
+```
 
 The report will list all the Python files relative paths to the root folder and their smells first
 If a file has god line smells, if will list out all the god line line numbers
