@@ -11,43 +11,9 @@ Classes:
 
 
 raw\canvas-gamification-master\accounts\forms.py
-Classes:
-	9 PasswordWidget
-		No smells
-
-	28 LoginForm
-		No smells
-
-	46 SignupForm
-		No smells
-
-	95 UserProfileForm
-		No smells
-
-	124 PasswordChangeForm
-		No smells
-
 Methods:
-	13 add_class_to_widget
-		No smells
-
-	19 add_bootstrap_validation
-		No smells
-
 	40 is_valid
 		Long method
-
-	77 clean
-		No smells
-
-	83 is_valid
-		No smells
-
-	118 is_valid
-		No smells
-
-	143 is_valid
-		No smells
 
 
 raw\canvas-gamification-master\accounts\middlewares.py
@@ -55,95 +21,36 @@ Methods:
 	8 login_overlay_middleware
 		Free loader
 
-	11 middleware
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0001_initial.py
 God lines: 25, 30, 32, 33
 
-Classes:
-	9 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0002_myuser_role.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0003_myuser_tokens.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0004_remove_myuser_tokens.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0005_myuser_student_number.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0006_auto_20200516_1744.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0007_remove_myuser_student_number.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0008_userconsent.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0009_userconsent_user.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0010_auto_20201014_2059.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0011_auto_20210303_1331.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0012_auto_20210420_2257.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0013_auto_20210608_1949.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\0014_auto_20210811_1303.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\accounts\migrations\__init__.py
 
@@ -152,16 +59,7 @@ Classes:
 	17 MyAnonymousUser
 		Free loader
 
-	23 MyUser
-		No smells
-
-	81 UserConsent
-		No smells
-
 Methods:
-	19 is_teacher
-		No smells
-
 	28 tokens
 		Free loader
 
@@ -177,42 +75,20 @@ Methods:
 	44 has_complete_profile
 		Free loader
 
-	48 success_rate_by_category
-		No smells
-
 	60 success_rate_by_difficulty
 		Bad identifier
 
 	73 has_consent
 		Free loader
 
-	76 save
-		No smells
-
 	94 is_student
 		Free loader
 
 
 raw\canvas-gamification-master\accounts\tests.py
-Classes:
-	6 AccountsTestCase
-		No smells
-
-	16 AccountFormsTestCase
-		No smells
-
 Methods:
 	8 test_login
 		Free loader
-
-	11 test_teacher
-		No smells
-
-	17 test_recaptcha
-		No smells
-
-	30 test_recaptcha_debug
-		No smells
 
 
 raw\canvas-gamification-master\accounts\urls.py
@@ -225,55 +101,13 @@ Methods:
 	7 decorator
 		Free loader
 
-	9 _wrapper_view
-		No smells
-
 
 raw\canvas-gamification-master\accounts\utils\email_functions.py
-Classes:
-	12 TokenGenerator
-		No smells
-
-Methods:
-	13 _make_hash_value
-		No smells
-
-	21 activate_user
-		No smells
-
-	34 send_activation_email
-		No smells
-
-	49 verify_reset
-		No smells
-
-	60 send_reset_email
-		No smells
-
-	75 send_contact_us_email
-		No smells
-
 
 raw\canvas-gamification-master\accounts\utils\__init__.py
 
 raw\canvas-gamification-master\accounts\views.py
-Classes:
-	18 LoginView
-		No smells
-
-	58 UserProfileView
-		No smells
-
-	82 PasswordChangeView
-		No smells
-
 Methods:
-	23 signup_view
-		No smells
-
-	41 activate
-		No smells
-
 	54 consent_view
 		Free loader
 
@@ -283,23 +117,8 @@ Methods:
 	67 get_success_url
 		Free loader
 
-	71 get_context_data
-		No smells
-
-	88 password_change_done_view
-		No smells
-
-	95 forgot_password_view
-		No smells
-
 	113 password_reset_view
 		Free loader
-
-	114 get_user
-		No smells
-
-	124 bad_token
-		No smells
 
 
 raw\canvas-gamification-master\accounts\__init__.py
@@ -313,18 +132,10 @@ Classes:
 
 
 raw\canvas-gamification-master\analytics\migrations\0001_initial.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\analytics\migrations\__init__.py
 
 raw\canvas-gamification-master\analytics\models.py
-Classes:
-	6 submission_analytics
-		No smells
-
 
 raw\canvas-gamification-master\analytics\tests.py
 
@@ -353,28 +164,12 @@ Classes:
 
 
 raw\canvas-gamification-master\api\error_messages\answer.py
-Classes:
-	1 ANSWER
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\category.py
-Classes:
-	1 CATEGORY
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\consent.py
-Classes:
-	1 CONSENT
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\course.py
-Classes:
-	1 COURSE
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\course_registration.py
 Classes:
@@ -383,58 +178,22 @@ Classes:
 
 
 raw\canvas-gamification-master\api\error_messages\date.py
-Classes:
-	1 DATE
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\difficulty.py
-Classes:
-	1 DIFFICULTY
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\email.py
-Classes:
-	1 EMAIL
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\event.py
-Classes:
-	1 EVENT
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\first_name.py
-Classes:
-	1 FIRSTNAME
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\input_files.py
-Classes:
-	1 INPUT_FILES
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\junit_template.py
-Classes:
-	1 JUNIT_TEMPLATE
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\last_name.py
-Classes:
-	1 LASTNAME
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\lines.py
-Classes:
-	1 LINES
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\max_submission_allowed.py
 Classes:
@@ -443,52 +202,20 @@ Classes:
 
 
 raw\canvas-gamification-master\api\error_messages\password.py
-Classes:
-	1 PASSWORD
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\question.py
-Classes:
-	1 QUESTION
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\recaptcha.py
-Classes:
-	1 RECAPTCHA
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\schema.py
-Classes:
-	1 SCHEMA
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\student_number.py
-Classes:
-	1 STUDENT_NUMBER
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\submission.py
-Classes:
-	1 SUBMISSION
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\text.py
-Classes:
-	1 TEXT
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\title.py
-Classes:
-	1 TITLE
-		No smells
-
 
 raw\canvas-gamification-master\api\error_messages\token_use.py
 Classes:
@@ -543,14 +270,8 @@ Classes:
 	39 EventCreatePermission
 		Bad identifier
 
-	47 EventEditPermission
-		No smells
-
 	55 HasDeletePermission
 		Free loader
-
-	62 IsOwnerOrReadOnly
-		No smells
 
 	70 HasViewSubmissionPermission
 		Bad identifier
@@ -558,33 +279,6 @@ Classes:
 Methods:
 	5 has_permission
 		Free loader
-
-	10 has_object_permission
-		No smells
-
-	17 has_object_permission
-		No smells
-
-	26 has_object_permission
-		No smells
-
-	33 has_object_permission
-		No smells
-
-	40 has_object_permission
-		No smells
-
-	48 has_object_permission
-		No smells
-
-	56 has_object_permission
-		No smells
-
-	63 has_object_permission
-		No smells
-
-	71 has_object_permission
-		No smells
 
 
 raw\canvas-gamification-master\api\serializers\action.py
@@ -598,92 +292,26 @@ Classes:
 	8 CanvasCourseRegistrationSerializer
 		Bad identifier
 
-Methods:
-	11 get_token_uses
-		No smells
-
-	17 get_is_registered
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\change_password.py
 Classes:
 	8 ChangePasswordSerializer
 		Bad identifier
 
-Methods:
-	30 validate
-		No smells
-
-	35 validate_old_password
-		No smells
-
-	41 create
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\contact_us.py
-Classes:
-	7 ContactUsSerializer
-		No smells
-
 Methods:
-	14 validate_recaptcha_key
-		No smells
-
 	19 create
 		Free loader
 
 
 raw\canvas-gamification-master\api\serializers\course.py
-Classes:
-	11 CourseSerializer
-		No smells
-
-	76 CourseSerializerList
-		No smells
-
 Methods:
-	20 get_user
-		No smells
-
-	27 get_uqjs
-		No smells
-
-	43 get_is_registered
-		No smells
-
-	51 get_course_reg
-		No smells
-
 	60 get_create_event_permission
 		Bad identifier
 
-	80 get_user
-		No smells
-
-	87 get_is_registered
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\event.py
-Classes:
-	8 EventSerializer
-		No smells
-
-Methods:
-	13 get_user
-		No smells
-
-	20 get_total_event_grade
-		No smells
-
-	28 get_is_allowed_to_open
-		No smells
-
-	36 get_has_edit_permission
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\faq.py
 Classes:
@@ -706,9 +334,6 @@ Methods:
 	27 get_event_obj
 		Free loader
 
-	30 get_category_obj
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\multiple_choice_question.py
 Classes:
@@ -724,9 +349,6 @@ Classes:
 Methods:
 	29 get_event_obj
 		Free loader
-
-	32 get_category_obj
-		No smells
 
 
 raw\canvas-gamification-master\api\serializers\parsons_question.py
@@ -744,22 +366,9 @@ Methods:
 	26 get_event_obj
 		Free loader
 
-	29 get_category_obj
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\question.py
-Classes:
-	8 QuestionSerializer
-		No smells
-
 Methods:
-	21 get_uqj_status
-		No smells
-
-	27 get_is_author
-		No smells
-
 	33 get_event_obj
 		Free loader
 
@@ -785,28 +394,11 @@ Classes:
 	10 UserRegistrationSerializer
 		Bad identifier
 
-Methods:
-	40 create
-		No smells
-
-	50 validate_recaptcha_key
-		No smells
-
-	55 validate
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\reset_password.py
 Classes:
 	11 ResetPasswordSerializer
 		Bad identifier
-
-Methods:
-	31 validate
-		No smells
-
-	42 create
-		No smells
 
 
 raw\canvas-gamification-master\api\serializers\token_use.py
@@ -823,30 +415,14 @@ Classes:
 
 
 raw\canvas-gamification-master\api\serializers\token_value.py
-Classes:
-	7 TokenValueSerializer
-		No smells
-
-Methods:
-	8 update
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\update_profile.py
 Classes:
 	8 UpdateProfileSerializer
 		Bad identifier
 
-Methods:
-	32 create
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\uqj.py
-Classes:
-	7 UQJSerializer
-		No smells
-
 Methods:
 	18 get_variables
 		Free loader
@@ -866,9 +442,6 @@ Methods:
 	33 get_input_files
 		Free loader
 
-	36 get_report
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\user_consent.py
 Classes:
@@ -877,10 +450,6 @@ Classes:
 
 
 raw\canvas-gamification-master\api\serializers\user_stats.py
-Classes:
-	6 UserStatsSerializer
-		No smells
-
 Methods:
 	10 success_rate_by_category
 		Free loader
@@ -891,14 +460,6 @@ Methods:
 
 
 raw\canvas-gamification-master\api\serializers\utils.py
-Classes:
-	4 UpdateListSerializer
-		No smells
-
-Methods:
-	7 update
-		No smells
-
 
 raw\canvas-gamification-master\api\serializers\__init__.py
 
@@ -907,29 +468,15 @@ raw\canvas-gamification-master\api\tests.py
 raw\canvas-gamification-master\api\urls.py
 
 raw\canvas-gamification-master\api\views\action.py
-Classes:
-	8 ActionsViewSet
-		No smells
-
 Methods:
 	19 get_queryset
 		Free loader
 
 
 raw\canvas-gamification-master\api\views\admin.py
-Classes:
-	14 AdminViewSet
-		No smells
-
 Methods:
 	17 list
 		Free loader
-
-	21 question_count
-		No smells
-
-	35 get_nested_categories
-		No smells
 
 	46 category_stats
 		Free loader
@@ -939,14 +486,6 @@ Methods:
 
 
 raw\canvas-gamification-master\api\views\auth.py
-Classes:
-	8 ObtainAuthTokenView
-		No smells
-
-Methods:
-	9 post
-		No smells
-
 
 raw\canvas-gamification-master\api\views\canvas_course_registration.py
 Classes:
@@ -963,10 +502,6 @@ Classes:
 	8 ChangePasswordViewSet
 		Bad identifier
 
-Methods:
-	12 perform_create
-		No smells
-
 
 raw\canvas-gamification-master\api\views\contact_us.py
 Classes:
@@ -981,12 +516,6 @@ Classes:
 		Cyclomatic Complex
 
 Methods:
-	32 get_serializer_class
-		No smells
-
-	38 get_queryset
-		No smells
-
 	57 get_registration_status
 		Long method
 
@@ -996,28 +525,8 @@ Methods:
 	165 register_dashboard
 		Long method
 
-	228 verify
-		No smells
-
-	251 validate_event
-		No smells
-
-	268 user_stats
-		No smells
-
 
 raw\canvas-gamification-master\api\views\course_admin.py
-Classes:
-	12 CourseAdminViewSet
-		No smells
-
-Methods:
-	18 registered_users
-		No smells
-
-	33 update_status
-		No smells
-
 
 raw\canvas-gamification-master\api\views\difficulty.py
 Classes:
@@ -1030,25 +539,9 @@ Methods:
 
 
 raw\canvas-gamification-master\api\views\event.py
-Classes:
-	14 EventViewSet
-		No smells
-
 Methods:
 	24 get_queryset
 		Free loader
-
-	27 perform_create
-		No smells
-
-	32 perform_update
-		No smells
-
-	38 get_event_types
-		No smells
-
-	45 import_event
-		No smells
 
 
 raw\canvas-gamification-master\api\views\faq.py
@@ -1058,10 +551,6 @@ Classes:
 
 
 raw\canvas-gamification-master\api\views\java_question.py
-Classes:
-	10 JavaQuestionViewSet
-		No smells
-
 Methods:
 	16 perform_create
 		Free loader
@@ -1101,22 +590,9 @@ Methods:
 
 
 raw\canvas-gamification-master\api\views\question.py
-Classes:
-	19 QuestionViewSet
-		No smells
-
 Methods:
 	34 get_question_serializer_class
 		Bad identifier
-
-	43 get_serializer
-		No smells
-
-	56 destroy
-		No smells
-
-	64 download_questions
-		No smells
 
 	76 get_favorite_count
 		Free loader
@@ -1134,49 +610,17 @@ Classes:
 	11 QuestionReportViewSet
 		Bad identifier
 
-Methods:
-	16 perform_create
-		No smells
-
-	21 get_queryset
-		No smells
-
 
 raw\canvas-gamification-master\api\views\register.py
 Classes:
 	12 UserRegistrationViewSet
 		Bad identifier
 
-Methods:
-	16 create
-		No smells
-
-	25 activate
-		No smells
-
 
 raw\canvas-gamification-master\api\views\reset_password.py
-Classes:
-	14 ResetPasswordViewSet
-		No smells
-
-Methods:
-	17 create
-		No smells
-
-	28 send_email
-		No smells
-
 
 raw\canvas-gamification-master\api\views\schema.py
-Classes:
-	12 SchemaViewSet
-		No smells
-
 Methods:
-	16 get_schema
-		No smells
-
 	21 list
 		Free loader
 
@@ -1185,33 +629,8 @@ Methods:
 
 
 raw\canvas-gamification-master\api\views\submission.py
-Classes:
-	26 SubmissionViewSet
-		No smells
-
-Methods:
-	36 get_serialized_data
-		No smells
-
-	52 list
-		No smells
-
-	67 retrieve
-		No smells
-
-	72 submit
-		No smells
-
 
 raw\canvas-gamification-master\api\views\token_use.py
-Classes:
-	13 TokenUseViewSet
-		No smells
-
-Methods:
-	16 use_tokens
-		No smells
-
 
 raw\canvas-gamification-master\api\views\token_value.py
 Classes:
@@ -1222,74 +641,23 @@ Methods:
 	20 get_queryset
 		Free loader
 
-	23 get_nested_token_values
-		No smells
-
 	37 nested
 		Free loader
 
-	41 update_bulk
-		No smells
-
 
 raw\canvas-gamification-master\api\views\update_profile.py
-Classes:
-	9 UpdateProfileViewSet
-		No smells
-
 Methods:
 	13 get_queryset
 		Free loader
 
-	16 perform_update
-		No smells
-
 
 raw\canvas-gamification-master\api\views\uqj.py
-Classes:
-	10 UQJFilterSet
-		No smells
-
-	19 UQJViewSet
-		No smells
-
-Methods:
-	31 get_queryset
-		No smells
-
 
 raw\canvas-gamification-master\api\views\uqj_update.py
-Classes:
-	11 UpdateUQJViewSet
-		No smells
-
-Methods:
-	20 update_is_favorite
-		No smells
-
 
 raw\canvas-gamification-master\api\views\user_consent.py
-Classes:
-	10 UserConsentViewSet
-		No smells
-
-Methods:
-	15 perform_create
-		No smells
-
 
 raw\canvas-gamification-master\api\views\user_stats.py
-Classes:
-	10 UserStatsViewSet
-		No smells
-
-Methods:
-	11 get_queryset
-		No smells
-
-	17 difficulty
-		No smells
-
 
 raw\canvas-gamification-master\api\views\__init__.py
 
@@ -1308,9 +676,6 @@ Classes:
 	1 Canvas
 		Free loader
 
-	9 Course
-		No smells
-
 	34 AssignmentGroup
 		Free loader
 
@@ -1324,9 +689,6 @@ Methods:
 	2 __init__
 		Free loader
 
-	5 get_course
-		No smells
-
 	14 create_assignment
 		Free loader
 
@@ -1336,78 +698,29 @@ Methods:
 	20 get_assignment
 		Free loader
 
-	23 get_users
-		No smells
-
-	30 submissions_bulk_update
-		No smells
-
 	41 submissions_bulk_update
 		Free loader
 
-	46 __init__
-		No smells
-
 
 raw\canvas-gamification-master\canvas\forms\forms.py
-Classes:
-	7 CreateEventForm
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0001_initial.py
-Classes:
-	9 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0002_auto_20200822_2131.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0003_event.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0004_auto_20200904_0453.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0005_canvascourse_mock.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0006_canvascourse_instructor.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0007_tokenuse_num_used.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0008_event_type.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0009_auto_20210702_1305.py
-Classes:
-	14 Migration
-		No smells
-
 Methods:
 	6 change_practice_to_assignment
 		Bad identifier
@@ -1416,22 +729,10 @@ Methods:
 raw\canvas-gamification-master\canvas\migrations\0010_auto_20211025_1714.py
 God lines: 24
 
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0010_canvascourseregistration_registration_type.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\0011_merge_20211116_1744.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\canvas\migrations\__init__.py
 
@@ -1444,36 +745,9 @@ Classes:
 		Bad identifier
 		Large class
 
-	273 Event
-		No smells
-
-	345 TokenUseOption
-		No smells
-
-	371 TokenUse
-		No smells
-
 Methods:
-	37 __init__
-		No smells
-
-	44 canvas
-		No smells
-
-	52 course
-		No smells
-
 	58 canvas_course_name
 		Free loader
-
-	62 status
-		No smells
-
-	72 verification_assignment
-		No smells
-
-	78 leader_board
-		No smells
 
 	86 create_verification_assignment_group
 		Bad identifier
@@ -1483,15 +757,6 @@ Methods:
 
 	98 create_verification_assignment
 		Bad identifier
-
-	110 get_user
-		No smells
-
-	116 guess_user
-		No smells
-
-	121 is_registered
-		No smells
 
 	126 is_instructor
 		Free loader
@@ -1505,12 +770,6 @@ Methods:
 	136 has_create_event_permission
 		Bad identifier
 		Free loader
-
-	140 save
-		No smells
-
-	147 random_verification_code
-		No smells
 
 	183 get_token_uses
 		Free loader
@@ -1530,32 +789,11 @@ Methods:
 	202 unregister
 		Free loader
 
-	206 unverify
-		No smells
-
-	211 canvas_user
-		No smells
-
-	218 send_verification_code
-		No smells
-
 	225 set_canvas_user
 		Free loader
 
-	229 check_verification_code
-		No smells
-
-	242 total_tokens_received
-		No smells
-
-	248 available_tokens
-		No smells
-
 	259 username
 		Free loader
-
-	263 name
-		No smells
 
 	282 __str__
 		Free loader
@@ -1571,12 +809,6 @@ Methods:
 
 	296 is_exam
 		Free loader
-
-	300 status
-		No smells
-
-	307 has_view_permission
-		No smells
 
 	312 has_edit_permission
 		Free loader
@@ -1596,21 +828,6 @@ Methods:
 	329 is_exam_and_open
 		Free loader
 
-	332 copy_to_course
-		No smells
-
-	354 create_assignment
-		No smells
-
-	366 save
-		No smells
-
-	376 apply
-		No smells
-
-	384 revert
-		No smells
-
 
 raw\canvas-gamification-master\canvas\templatetags\canvas.py
 Methods:
@@ -1626,18 +843,6 @@ Methods:
 	23 is_allowed_to_edit_event
 		Free loader
 
-	28 event_button_text
-		No smells
-
-	47 tokens_column_name
-		No smells
-
-	55 exam_question_status
-		No smells
-
-	63 row_class
-		No smells
-
 
 raw\canvas-gamification-master\canvas\templatetags\event_grade.py
 Methods:
@@ -1648,40 +853,15 @@ Methods:
 raw\canvas-gamification-master\canvas\templatetags\__init__.py
 
 raw\canvas-gamification-master\canvas\tests.py
-Classes:
-	6 MockCourseTestCase
-		No smells
-
-Methods:
-	8 test_mock_course
-		No smells
-
 
 raw\canvas-gamification-master\canvas\urls.py
 
 raw\canvas-gamification-master\canvas\utils\token_use.py
-Classes:
-	4 TokenUseException
-		No smells
-
-Methods:
-	8 get_token_use
-		No smells
-
-	22 update_token_use
-		No smells
-
 
 raw\canvas-gamification-master\canvas\utils\utils.py
 Methods:
 	6 get_total_event_grade
 		Free loader
-
-	12 group_token_value
-		No smells
-
-	23 get_course_registration
-		No smells
 
 
 raw\canvas-gamification-master\canvas\views\register_views.py
@@ -1695,29 +875,11 @@ Methods:
 	66 _verify_registration_view
 		Long method
 
-	95 register_course_view
-		No smells
-
 
 raw\canvas-gamification-master\canvas\views\views.py
 Methods:
-	15 course_list_view
-		No smells
-
 	25 course_view
 		Long method
-
-	61 event_problem_set
-		No smells
-
-	81 events_options_view
-		No smells
-
-	90 create_event_view
-		No smells
-
-	112 edit_event_view
-		No smells
 
 
 raw\canvas-gamification-master\canvas\views\__init__.py
@@ -1727,26 +889,12 @@ raw\canvas-gamification-master\canvas\__init__.py
 raw\canvas-gamification-master\canvas_gamification\asgi.py
 
 raw\canvas-gamification-master\canvas_gamification\env.py
-Methods:
-	5 read_env
-		No smells
-
 
 raw\canvas-gamification-master\canvas_gamification\settings.py
 
 raw\canvas-gamification-master\canvas_gamification\urls.py
 
 raw\canvas-gamification-master\canvas_gamification\views.py
-Methods:
-	17 homepage
-		No smells
-
-	32 action_view
-		No smells
-
-	41 angular
-		No smells
-
 
 raw\canvas-gamification-master\canvas_gamification\wsgi.py
 
@@ -1754,9 +902,6 @@ raw\canvas-gamification-master\canvas_gamification\__init__.py
 
 raw\canvas-gamification-master\course\admin.py
 Classes:
-	12 QuestionAdminForm
-		No smells
-
 	25 QuestionAdmin
 		Free loader
 
@@ -1794,30 +939,15 @@ Classes:
 	10 JSONFormField
 		Free loader
 
-	17 JSONLineFormField
-		No smells
-
 Methods:
-	11 prepare_value
-		No smells
-
 	18 to_python
 		Free loader
-
-	21 prepare_value
-		No smells
 
 
 raw\canvas-gamification-master\course\forms\forms.py
 Classes:
-	13 ProblemCreateForm
-		No smells
-
 	94 JunitProblemCreateForm
 		Bad identifier
-
-	126 ProblemFilterForm
-		No smells
 
 Methods:
 	14 __init__
@@ -1825,10 +955,6 @@ Methods:
 
 
 raw\canvas-gamification-master\course\forms\java.py
-Classes:
-	9 JavaQuestionForm
-		No smells
-
 
 raw\canvas-gamification-master\course\forms\multiple_choice.py
 Classes:
@@ -1839,19 +965,12 @@ Classes:
 	17 MultipleChoiceQuestionForm
 		Bad identifier
 
-	33 ChoiceForm
-		No smells
-
 Methods:
 	39 __init__
 		Free loader
 
 
 raw\canvas-gamification-master\course\forms\parsons.py
-Classes:
-	8 ParsonsQuestionForm
-		No smells
-
 
 raw\canvas-gamification-master\course\forms\__init__.py
 
@@ -1860,36 +979,12 @@ Classes:
 	11 Grader
 		Free loader
 
-	17 MultipleChoiceGrader
-		No smells
-
-	47 JunitGrader
-		No smells
-
 Methods:
 	13 grade
 		Free loader
 
 	19 grade
 		Long method
-
-	53 get_compiler_script
-		No smells
-
-	63 get_source_code
-		No smells
-
-	69 get_additional_file
-		No smells
-
-	88 grade
-		No smells
-
-	107 evaluate
-		No smells
-
-	117 submit
-		No smells
 
 
 raw\canvas-gamification-master\course\grader\__init__.py
@@ -1900,20 +995,8 @@ Classes:
 		Large class
 
 Methods:
-	15 add_arguments
-		No smells
-
-	21 handle
-		No smells
-
-	37 populate_categories
-		No smells
-
 	58 populate_multiple_choice_questions
 		Bad identifier
-
-	81 populate_java_questions
-		No smells
 
 	99 populate_parsons_questions
 		Bad identifier
@@ -1928,190 +1011,61 @@ Classes:
 
 
 raw\canvas-gamification-master\course\migrations\0002_auto_20200814_2314.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0003_auto_20200815_0001.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0004_auto_20200815_0111.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0005_question_event.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0006_auto_20200921_2020.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0007_auto_20201002_0329.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0008_question_is_sample.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0009_auto_20201120_1808.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0010_questioncategory_next_categories.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0011_auto_20201213_1913.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0012_auto_20210420_2257.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0013_delete_checkboxquestion.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0014_parsonsquestion_input_files.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0015_auto_20210704_1627.py
-Classes:
-	24 Migration
-		No smells
-
-Methods:
-	6 fix_parsons_lines
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0016_auto_20210704_1631.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0017_javaquestion_input_files.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0018_auto_20210717_2053.py
-Classes:
-	21 Migration
-		No smells
-
-Methods:
-	4 fix_java_input_files
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0019_remove_javaquestion_input_file_names.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0020_question_question_status.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0021_userquestionjunction_is_favorite.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0022_auto_20211203_1936.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0023_auto_20211203_1937.py
-Classes:
-	13 Migration
-		No smells
-
-Methods:
-	6 convert_normal_to_medium
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\0024_auto_20211203_1955.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\course\migrations\__init__.py
 
 raw\canvas-gamification-master\course\models\java.py
-Classes:
-	8 JavaQuestion
-		No smells
-
-	39 JavaSubmission
-		No smells
-
 Methods:
-	21 should_compile
-		No smells
-
-	27 get_input_file_names
-		No smells
-
-	35 get_input_files
-		No smells
-
-	48 get_answer_files
-		No smells
-
 	54 get_embed_files
 		Free loader
 
 
 raw\canvas-gamification-master\course\models\models.py
 Classes:
-	27 QuestionCategory
-		No smells
-
-	71 TokenValue
-		No smells
-
 	94 Question
 		Large class
 
@@ -2125,13 +1079,7 @@ Classes:
 	359 Submission
 		Large class
 
-	468 CodeSubmission
-		No smells
-
 Methods:
-	33 __str__
-		No smells
-
 	40 full_name
 		Free loader
 
@@ -2140,12 +1088,6 @@ Methods:
 
 	54 average_success
 		Free loader
-
-	58 question_count
-		No smells
-
-	67 next_category_ids
-		No smells
 
 	76 save
 		Long method
@@ -2201,29 +1143,11 @@ Methods:
 	188 get_input_files
 		Free loader
 
-	191 save
-		No smells
-
-	198 has_view_permission
-		No smells
-
 	205 has_edit_permission
 		Free loader
 
-	208 copy_to_event
-		No smells
-
 	226 random_seed
 		Free loader
-
-	247 viewed
-		No smells
-
-	252 is_allowed_to_submit
-		No smells
-
-	262 _get_variables
-		No smells
 
 	270 get_variables_errors
 		Free loader
@@ -2233,12 +1157,6 @@ Methods:
 
 	276 get_rendered_text
 		Free loader
-
-	279 get_rendered_choices
-		No smells
-
-	293 get_lines
-		No smells
 
 	313 get_input_files
 		Free loader
@@ -2252,17 +1170,8 @@ Methods:
 	322 formatted_num_attempts
 		Free loader
 
-	326 status_class
-		No smells
-
-	336 status
-		No smells
-
 	348 formatted_current_tokens_received
 		Bad identifier
-
-	353 save
-		No smells
 
 	374 question
 		Free loader
@@ -2270,14 +1179,8 @@ Methods:
 	378 user
 		Free loader
 
-	382 status_color
-		No smells
-
 	393 in_progress
 		Free loader
-
-	397 status
-		No smells
 
 	408 tokens_received
 		Free loader
@@ -2288,29 +1191,8 @@ Methods:
 	416 formatted_tokens_received
 		Free loader
 
-	419 calculate_grade
-		No smells
-
-	435 get_grade
-		No smells
-
-	440 save
-		No smells
-
 	459 submit
 		Free loader
-
-	462 has_view_permission
-		No smells
-
-	476 is_compile_error
-		No smells
-
-	483 status
-		No smells
-
-	489 in_progress
-		No smells
 
 	495 submit
 		Free loader
@@ -2352,35 +1234,9 @@ Classes:
 	18 MultipleChoiceSubmission
 		Bad identifier
 
-Methods:
-	14 is_checkbox
-		No smells
-
-	20 answer_display
-		No smells
-
 
 raw\canvas-gamification-master\course\models\parsons.py
-Classes:
-	8 ParsonsQuestion
-		No smells
-
-	41 ParsonsSubmission
-		No smells
-
 Methods:
-	23 should_compile
-		No smells
-
-	29 get_input_file_names
-		No smells
-
-	37 get_input_files
-		No smells
-
-	50 get_answer_files
-		No smells
-
 	56 get_embed_files
 		Free loader
 
@@ -2388,19 +1244,8 @@ Methods:
 raw\canvas-gamification-master\course\models\__init__.py
 
 raw\canvas-gamification-master\course\templatetags\arrays.py
-Methods:
-	7 return_item
-		No smells
-
-	15 return_last_item
-		No smells
-
 
 raw\canvas-gamification-master\course\templatetags\course.py
-Methods:
-	7 row_class
-		No smells
-
 
 raw\canvas-gamification-master\course\templatetags\math.py
 Methods:
@@ -2412,9 +1257,6 @@ raw\canvas-gamification-master\course\templatetags\__init__.py
 
 raw\canvas-gamification-master\course\tests.py
 Classes:
-	7 EnsureUQJTest
-		No smells
-
 	30 McqSubmissionTestCase
 		Bad identifier
 
@@ -2431,9 +1273,6 @@ Methods:
 	9 setUp
 		Free loader
 
-	13 test_ensure_uqj
-		No smells
-
 	32 setUp
 		Long method
 
@@ -2445,9 +1284,6 @@ Methods:
 
 	93 test_correct_answer
 		Free loader
-
-	97 test_incorrect_answer
-		No smells
 
 	104 setUp
 		Free loader
@@ -2469,9 +1305,6 @@ Methods:
 	124 test_one_incorrect_one_correct_choice
 		Bad identifier
 		Free loader
-
-	128 test_empty_string
-		No smells
 
 	135 setUp
 		Free loader
@@ -2502,9 +1335,6 @@ raw\canvas-gamification-master\course\urls.py
 
 raw\canvas-gamification-master\course\utils\junit_xml.py
 Methods:
-	7 parse_junit_xml
-		No smells
-
 	37 format_message
 		Free loader
 
@@ -2527,23 +1357,11 @@ Methods:
 	4 get_user_question_junction
 		Bad identifier
 
-	14 ensure_uqj
-		No smells
-
-	47 get_token_value_object
-		No smells
-
 	62 get_token_value
 		Free loader
 
-	66 get_token_values
-		No smells
-
 	80 increment_char
 		Free loader
-
-	86 __init__
-		No smells
 
 	92 create_multiple_choice_question
 		Bad identifier
@@ -2558,33 +1376,11 @@ Methods:
 		Long parameter list
 		Long method
 
-	254 create_mcq_submission
-		No smells
-
-	264 get_question_title
-		No smells
-
-	273 calculate_average_success
-		No smells
-
 	298 success_rate
 		Free loader
 
 
 raw\canvas-gamification-master\course\utils\variables.py
-Methods:
-	26 evaluate
-		No smells
-
-	36 render_text
-		No smells
-
-	43 _generate_variable
-		No smells
-
-	68 generate_variables
-		No smells
-
 
 raw\canvas-gamification-master\course\utils\__init__.py
 
@@ -2593,20 +1389,11 @@ Methods:
 	12 _java_question_create_view
 		Bad identifier
 
-	34 _java_question_edit_view
-		No smells
-
 	50 _java_question_view
 		Free loader
 
-	51 return_render
-		No smells
-
 	79 _java_submission_detail_view
 		Bad identifier
-
-	85 submit_solution
-		No smells
 
 
 raw\canvas-gamification-master\course\views\multiple_choice.py
@@ -2623,9 +1410,6 @@ Methods:
 		Bad identifier
 		Long method
 
-	146 submit_solution
-		No smells
-
 
 raw\canvas-gamification-master\course\views\parsons.py
 Methods:
@@ -2638,14 +1422,8 @@ Methods:
 	53 _parsons_question_view
 		Free loader
 
-	54 return_render
-		No smells
-
 	76 _parsons_submission_detail_view
 		Bad identifier
-
-	82 submit_solution
-		No smells
 
 
 raw\canvas-gamification-master\course\views\views.py
@@ -2663,20 +1441,8 @@ Methods:
 		Bad identifier
 		Free loader
 
-	51 question_view
-		No smells
-
-	73 question_edit_view
-		No smells
-
-	89 question_delete_view
-		No smells
-
 	103 problem_set_view
 		Long method
-
-	148 submission_detail_view
-		No smells
 
 	162 token_values_table_view
 		Long method
@@ -2692,19 +1458,6 @@ Classes:
 	13 DynamicSelect
 		Free loader
 
-	17 JSONEditor
-		No smells
-
-Methods:
-	9 __init__
-		No smells
-
-	20 __init__
-		No smells
-
-	25 get_context
-		No smells
-
 
 raw\canvas-gamification-master\course\__init__.py
 
@@ -2712,21 +1465,11 @@ raw\canvas-gamification-master\docs\conf.py
 
 raw\canvas-gamification-master\general\admin.py
 Classes:
-	12 FAQAdminForm
-		No smells
-
 	24 FAQAdmin
 		Free loader
 
 	29 ActionAdmin
 		Free loader
-
-	34 QuestionReportAdmin
-		No smells
-
-Methods:
-	14 __init__
-		No smells
 
 
 raw\canvas-gamification-master\general\apps.py
@@ -2736,65 +1479,29 @@ Classes:
 
 
 raw\canvas-gamification-master\general\migrations\0001_initial.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\general\migrations\0002_action.py
-Classes:
-	8 Migration
-		No smells
-
 
 raw\canvas-gamification-master\general\migrations\0003_auto_20200620_1722.py
-Classes:
-	7 Migration
-		No smells
-
 
 raw\canvas-gamification-master\general\migrations\0004_contactus.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\general\migrations\0005_auto_20201120_1808.py
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\general\migrations\0006_auto_20210829_1847.py
 God lines: 32, 37
-
-Classes:
-	7 Migration
-		No smells
 
 
 raw\canvas-gamification-master\general\migrations\0007_auto_20210829_1919.py
 God lines: 16
 
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\general\migrations\0008_auto_20211019_1619.py
 God lines: 16
 
-Classes:
-	6 Migration
-		No smells
-
 
 raw\canvas-gamification-master\general\migrations\0009_questionreport.py
 God lines: 23
-
-Classes:
-	8 Migration
-		No smells
 
 
 raw\canvas-gamification-master\general\migrations\__init__.py
@@ -2804,25 +1511,12 @@ Classes:
 	7 ActionStatus
 		Free loader
 
-	12 ActionVerb
-		No smells
-
-	35 ActionObjectType
-		No smells
-
-	82 Action
-		No smells
-
 Methods:
 	96 create_action
 		Long parameter list
 
 
 raw\canvas-gamification-master\general\models\contact_us.py
-Classes:
-	6 ContactUs
-		No smells
-
 Methods:
 	14 save
 		Free loader
@@ -2835,45 +1529,17 @@ Classes:
 
 
 raw\canvas-gamification-master\general\models\question_report.py
-Classes:
-	14 QuestionReport
-		No smells
-
 
 raw\canvas-gamification-master\general\services\action.py
 Methods:
-	4 create_login_action
-		No smells
-
-	17 create_logout_action
-		No smells
-
-	30 give_user_consent_action
-		No smells
-
 	43 remove_user_consent_action
 		Bad identifier
 
 	56 update_user_profile_action
 		Bad identifier
 
-	69 change_password_action
-		No smells
-
 	82 reset_password_email_action
 		Bad identifier
-
-	95 reset_password_action
-		No smells
-
-	108 create_event_action
-		No smells
-
-	121 update_event_action
-		No smells
-
-	134 import_event_action
-		No smells
 
 	147 course_registration_verify_action
 		Bad identifier
@@ -2883,18 +1549,6 @@ Methods:
 
 	173 course_registration_confirm_name_action
 		Bad identifier
-
-	186 create_submission_action
-		No smells
-
-	201 create_question_action
-		No smells
-
-	214 delete_question_action
-		No smells
-
-	227 update_question_action
-		No smells
 
 	240 create_submission_evaluation_action
 		Bad identifier
@@ -2916,12 +1570,6 @@ raw\canvas-gamification-master\general\templatetags\__init__.py
 
 raw\canvas-gamification-master\general\tests.py
 Classes:
-	14 LoginActionTest
-		No smells
-
-	25 LogoutActionTest
-		No smells
-
 	36 GiveUserConsentActionTest
 		Bad identifier
 
@@ -2967,118 +1615,32 @@ Classes:
 	190 DeleteQuestionActionTest
 		Bad identifier
 
-	201 SubmissionActionTest
-		No smells
-
 Methods:
-	15 test
-		No smells
-
-	26 test
-		No smells
-
-	37 test
-		No smells
-
-	48 test
-		No smells
-
-	59 test
-		No smells
-
-	70 test
-		No smells
-
-	81 test
-		No smells
-
-	92 test
-		No smells
-
-	103 test
-		No smells
-
-	114 test
-		No smells
-
-	125 test
-		No smells
-
-	136 test
-		No smells
-
-	147 test
-		No smells
-
-	158 test
-		No smells
-
 	169 setUp
 		Free loader
-
-	173 test
-		No smells
 
 	180 setUp
 		Free loader
 
-	184 test
-		No smells
-
 	191 setUp
 		Free loader
-
-	195 test
-		No smells
 
 	202 setUp
 		Free loader
 
-	206 test_incorrect_submission
-		No smells
-
-	219 test_correct_submission
-		No smells
-
 
 raw\canvas-gamification-master\general\views.py
-Methods:
-	7 faq
-		No smells
-
 
 raw\canvas-gamification-master\general\__init__.py
 
 raw\canvas-gamification-master\manage.py
-Methods:
-	7 main
-		No smells
-
 
 raw\canvas-gamification-master\test\base.py
-Classes:
-	8 BaseTestCase
-		No smells
-
-Methods:
-	9 setUp
-		No smells
-
 
 raw\canvas-gamification-master\test\courses.py
-Methods:
-	6 add_base_course
-		No smells
-
-	27 add_base_event
-		No smells
-
 
 raw\canvas-gamification-master\test\questions.py
 Methods:
-	5 add_base_category
-		No smells
-
 	11 add_base_questions
 		Long method
 
@@ -3095,10 +1657,6 @@ Methods:
 raw\canvas-gamification-master\test\__init__.py
 
 raw\canvas-gamification-master\utils\recaptcha.py
-Methods:
-	9 validate_recaptcha
-		No smells
-
 
 raw\canvas-gamification-master\utils\__init__.py
 

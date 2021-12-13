@@ -21,6 +21,7 @@ public class CodeSmells {
 
 	public static void main(String[] args) throws Exception {
 		BufferedWriter writer = new BufferedWriter(new FileWriter("code smells report.txt"));
+		String smells;
 		List<File> files = getPythonFiles();
 		for (int i = 0; i < files.size(); i++) {
 			writer.write(files.get(i).getPath() + "\n");
@@ -28,18 +29,20 @@ public class CodeSmells {
 			Map<Integer, String> lines = readPython(files.get(i));
 			writer.write(findGodLines(lines));
 			List<int[]> classBlocks = getClassBlocks(lines);
-			if (!classBlocks.isEmpty()) {
-				writer.write("Classes:\n");
-			}
+			smells = "";
 			for (int b = 0; b < classBlocks.size(); b++) {
-				writer.write(findClassSmells(lines, classBlocks.get(b)[0], classBlocks.get(b)[1]));
+				 smells += findClassSmells(lines, classBlocks.get(b)[0], classBlocks.get(b)[1]);
+			}
+			if (!smells.isBlank()) {
+				writer.write("Classes:\n" + smells);
 			}
 			List<int[]> methodBlocks = getMethodBlocks(lines);
-			if (!methodBlocks.isEmpty()) {
-				writer.write("Methods:\n");
-			}
+			smells = "";
 			for (int b = 0; b < methodBlocks.size(); b++) {
-				writer.write(findMethodSmells(lines, methodBlocks.get(b)[0], methodBlocks.get(b)[1]));
+				smells += findMethodSmells(lines, methodBlocks.get(b)[0], methodBlocks.get(b)[1]);
+			}
+			if (!smells.isBlank()) {
+				writer.write("Methods:\n" + smells);
 			}
 			writer.write("\n");
 			writer.flush();
@@ -167,7 +170,7 @@ public class CodeSmells {
 			r += "\n\t\tCyclomatic Complex";
 		}
 		if (!r.contains("\n")) {
-			r += "\n\t\tNo smells";
+			return "";
 		}
 		return r + "\n\n";
 	}
@@ -244,7 +247,7 @@ public class CodeSmells {
 			r += "\n\t\tFree loader";
 		}
 		if (!r.contains("\n")) {
-			r += "\n\t\tNo smells";
+			return "";
 		}
 		return r + "\n\n";
 	}

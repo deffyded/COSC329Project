@@ -57,9 +57,6 @@ Classes:
 ...
 
 Methods:
-	33 __str__
-		No smells
-
 	40 full_name
 		Free loader
 
