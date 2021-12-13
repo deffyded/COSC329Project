@@ -3056,15 +3056,15 @@ Methods:
 
 
 Totals:
-God lines:	17
+God lines: 17
 Class smells:
-	Bad identifiers:	61
-	Long parameter lists:	1
-	Large classes:	9
-	Free loaders:	47
-	Cyclomatic Complexes:	3
+	Bad identifiers: 61
+	Long parameter lists: 1
+	Large classes: 9
+	Free loaders: 47
+	Cyclomatic Complexes: 3
 Method smells:
-	Bad identifiers:	43
-	Long parameter lists:	4
-	Long methods:	20
-	Free loaders:	170
+	Bad identifiers: 43
+	Long parameter lists: 4
+	Long methods: 20
+	Free loaders: 170
