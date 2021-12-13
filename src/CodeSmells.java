@@ -6,6 +6,7 @@ import java.io.FileWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -23,6 +24,7 @@ public class CodeSmells {
 		List<File> files = getPythonFiles();
 		for (int i = 0; i < files.size(); i++) {
 			writer.write(files.get(i).getPath() + "\n");
+			System.out.println(files.get(i).getPath());
 			Map<Integer, String> lines = readPython(files.get(i));
 			writer.write(findGodLines(lines));
 			List<int[]> classBlocks = getClassBlocks(lines);
@@ -67,6 +69,7 @@ public class CodeSmells {
 		for (int i = 1; (line = reader.readLine()) != null; i++) {
 			line = line.replaceAll("//s+$", "");
 			r.put(i, line);
+			System.out.println(i + line);
 		}
 		reader.close();
 		return r;
@@ -100,6 +103,7 @@ public class CodeSmells {
 					}
 					temp[1] = l;
 					r.set(r.size() - 1, temp);
+					System.out.println(Arrays.toString(temp));
 				}
 			}
 			if (line.startsWith("class ")) {
@@ -113,6 +117,7 @@ public class CodeSmells {
 				}
 				temp[1] = l;
 				r.set(r.size() - 1, temp);
+				System.out.println(Arrays.toString(temp));
 			}
 		}
 		return r;
@@ -124,6 +129,7 @@ public class CodeSmells {
 			line += lines.get(start++).trim();
 		}
 		String name = line.split(" |\\(|:")[1];
+		System.out.println(name);
 		r += name;
 		if (name.length() < 3 || name.length() > 20) {
 			badidentifierclasses++;
@@ -132,6 +138,7 @@ public class CodeSmells {
 		String[] parameters = line.indexOf("(") > -1
 				? line.substring(line.indexOf("(") + 1, line.indexOf(")")).split(", *")
 				: new String[0];
+		System.out.println(parameters.length);
 		if (parameters.length > 3) {
 			longparamclasses++;
 			r += "\n\t\tLong parameter list";
@@ -142,7 +149,7 @@ public class CodeSmells {
 			if (!line.isBlank()) {
 				effectivelines++;
 				if (line.trim().startsWith("for ") || line.trim().startsWith("while ")
-						|| line.trim().startsWith("if")) {
+						|| line.trim().startsWith("if ")) {
 					cyclomatic++;
 				}
 			}
@@ -180,6 +187,7 @@ public class CodeSmells {
 					temp[1] = l;
 					;
 					r.set(r.size() - 1, temp);
+					System.out.println(Arrays.toString(temp));
 				}
 			}
 			if (line.trim().startsWith("def ")) {
@@ -194,6 +202,7 @@ public class CodeSmells {
 				}
 				temp[1] = l;
 				r.set(r.size() - 1, temp);
+				System.out.println(Arrays.toString(temp));
 			}
 		}
 		return r;
@@ -205,6 +214,7 @@ public class CodeSmells {
 			line += lines.get(start++).trim();
 		}
 		String name = line.split(" |\\(|:")[1];
+		System.out.println(name);
 		r += name;
 		if (name.length() < 3 || name.length() > 25) {
 			badidentifiermethods++;
@@ -213,6 +223,7 @@ public class CodeSmells {
 		String[] parameters = line.indexOf("(") > -1
 				? line.substring(line.indexOf("(") + 1, line.indexOf(")")).split(", *")
 				: new String[0];
+		System.out.println(parameters.length);
 		if (parameters.length > 5) {
 			longparammethods++;
 			r += "\n\t\tLong parameter list";

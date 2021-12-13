@@ -1,11 +1,3 @@
 .DS_Store
 
 bin/
-.class
-
-.classpath
-.project
-
-raw/
-
-code smells report.txt

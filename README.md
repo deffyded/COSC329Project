@@ -107,7 +107,7 @@ Moving on to the totals section at the end of the report, it basically lists out
 ##### Tests
 
 - Tested with data from the [canvas-gamification](https://github.com/canvas-gamification/canvas-gamification) repo
-- Tests for each method done through development
+- Tests for each method done through development, testing and debugging data is print to System.out
 
 ##### Bugs/buggy code
 
