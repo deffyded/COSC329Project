@@ -5,3 +5,7 @@ bin/
 
 .classpath
 .project
+
+raw/
+
+code smells report.txt
