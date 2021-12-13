@@ -103,7 +103,7 @@ Moving on to the totals section at the end of the report, it basically lists out
 
 ##### Tests
 
-- .
+- Tested with data from the [canvas-gamification](https://github.com/canvas-gamification/canvas-gamification) repo
 
 ##### Bugs/buggy code
 
@@ -111,10 +111,10 @@ Moving on to the totals section at the end of the report, it basically lists out
 
 ##### Results and Findings
 
-This application was ran on on the [canvas-gamification](https://github.com/canvas-gamification/canvas-gamification) repo and here is what was found:
+This application was ran on on the [canvas-gamification](https://github.com/canvas-gamification/canvas-gamification) project and here is what was found:
 
 ![graph](graph.png)
 
 There seems to be a lot of bad identifiers and free loader, but since The canvas gamification project is built on django which is a model-template-view framework, I am sure a part of the code smells are auto generated, it would be better to refer to each file's classes and methods smells in the detailed "code smells report.txt" report
 
-Other than that, the programmers could also check on their large classes and long methods, since there are quite a few of them as well, everything else seems okay.
+Other than that, the programmers could also check on their god lines, large classes and long methods, since there are quite a few of them as well, everything else seems okay.
