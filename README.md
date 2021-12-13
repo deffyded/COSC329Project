@@ -111,7 +111,7 @@ Moving on to the totals section at the end of the report, it basically lists out
 
 ##### Bugs/buggy code
 
-- None found
+- There seems to be a change in some of the counts of smells when I last tested before submission, it was really consistent before and consistent when I last checked too, I think it might be because I grabbed a newer version of the testing repo and some code changed, but not sure
 
 ##### Results and Findings
 
