@@ -20,7 +20,7 @@ And method level smells:
 - Long method (method body longer than 25 lines, excluding blank lines)
 - Free loader (method body less than 3 lines, excluding blank lines)
 
-Note that this application assumes the Python code has no syntax errors and uses 4 space soft indents
+Note that this application assumes the Python code has no syntax errors, uses 4 space soft indents, and does not detect code smells for subclasses
 
 ##### Runtime and Environment
 
