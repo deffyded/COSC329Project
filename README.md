@@ -82,6 +82,7 @@ Method smells:
 	Free loaders: 170
 ```
 
+
 The report will list all the Python files relative paths to the root folder and their smells first
 If a file has god line smells, if will list out all the god line line numbers
 Then under its classes section it will start with the line number the classes starts at and then their name, followed by their smells indented
